@@ -35,7 +35,7 @@ jobs:
 
     - name: Run Postman Tests with Newman
       run: |
-        newman run postman/springboot-tests.postman_collection.json \
+        newman run postman/Hks-Simple-Spring-Boot-API-Testing.postman_collection.json \
         -r htmlextra --reporter-htmlextra-export newman-report.html
 
     - name: Upload Test Report
